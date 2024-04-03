@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <MetaMaskProvider
       sdkOptions={{
-        logging: { developerMode: true },
+        logging: { developerMode: false },
         checkInstallationImmediately: false,
         dappMetadata: {
           name: "MetaMask-login",

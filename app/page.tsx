@@ -11,7 +11,7 @@ export default function Home() {
         checkInstallationImmediately: false,
         dappMetadata: {
           name: "MetaMask-login",
-          url: window.location.href,
+          url: process.env.NEXT_PUBLIC_APP_URL,
         },
       }}
     >
